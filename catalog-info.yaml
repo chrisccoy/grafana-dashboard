@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Dashboard"
+  description: "Sample DDog Dashboard"
+  annotations:
+    github.com/project-slug: chrisccoy/dashboard
+    backstage.io/techdocs-ref: url:https://github.com/chrisccoy/dashboard
+annotations:
+  datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/b264bbba-d9c9-11eb-acc5-da7ad0900002-60b47e14d4c0883cad3ba730bbfd63fb
+  #af37eaf29a6bbf17618d1937d950a1a48ac898faa0bc32674219c74ce3c6622c
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "team-a"

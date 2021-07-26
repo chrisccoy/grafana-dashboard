@@ -1,0 +1,8 @@
+site_name: "Dashboard"
+site_description: "Sample DDog Dashboard"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
