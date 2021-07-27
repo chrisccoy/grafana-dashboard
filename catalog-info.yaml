@@ -2,14 +2,18 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "Dashboard"
-  description: "Sample DDog Dashboard"
+  description: "Sample Data Dog Dashboard"
   annotations:
     github.com/project-slug: chrisccoy/dashboard
     backstage.io/techdocs-ref: url:https://github.com/chrisccoy/dashboard
-annotations:
-  datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/b264bbba-d9c9-11eb-acc5-da7ad0900002-60b47e14d4c0883cad3ba730bbfd63fb
-  #af37eaf29a6bbf17618d1937d950a1a48ac898faa0bc32674219c74ce3c6622c
+    
+    #datadoghq.com/site: https://app.datadoghq.com/
+    datadoghq.com/dashboard-url: http://dora.phx.axway.int/d/ampc/amplify-central?orgId=1&refresh=5s&from=now-30d&to=now
+    #datadoghq.com/dashboard-url: http://localhost:3000/d-solo/fyD8s0m7z/sample-dashboard?orgId=1&from=1626097270429&to=1626118870429&panelId=2
+    #datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/b264bbba-d9c9-11eb-acc5-da7ad0900002-60b47e14d4c0883cad3ba730bbfd63fb
+
+    
 spec:
-  type: documentation
+  type: service
   lifecycle: experimental
   owner: "team-a"
