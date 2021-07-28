@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: url:https://github.com/chrisccoy/dashboard
     
     #datadoghq.com/site: https://app.datadoghq.com/
-    datadoghq.com/dashboard-url: http://dora.phx.axway.int/d/ampc/amplify-central?orgId=1&refresh=5s&from=now-30d&to=now
+    datadoghq.com/dashboard-url: http://localhost:8011/proxy/d/ampc/amplify-central?orgId=1&refresh=5s&from=now-30d&to=now
     #datadoghq.com/dashboard-url: http://localhost:3000/d-solo/fyD8s0m7z/sample-dashboard?orgId=1&from=1626097270429&to=1626118870429&panelId=2
     #datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/b264bbba-d9c9-11eb-acc5-da7ad0900002-60b47e14d4c0883cad3ba730bbfd63fb
 
